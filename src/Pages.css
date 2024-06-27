@@ -1,0 +1,46 @@
+
+.container9 {
+    width: Fixed (1,112px)px;
+    height: Hug (10,166px)px;
+    top: 192px;
+    left: 160px;
+    gap: 32px;
+    opacity: 0px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom:40px;
+    margin-top:100px;
+    
+}
+
+
+/* Container for each subheading */
+.subtitlecontainer {
+    width: Hug;
+    height: Hug;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--nunito);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #454545;
+ }
+
+/* Container for each text box (actually holds content) */
+.textcontainer {
+    width: Fill;
+    height: Hug;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--nunito);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #909090;
+    margin-left:40px;
+    margin-right:40px;
+ }
+ 

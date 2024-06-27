@@ -1,0 +1,33 @@
+.titlecontainer {
+    width: Fixed (1,112px)px;
+    height: 50px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    margin-top: 32px;
+}
+
+    /* Title container for image */
+.imagecontainer {
+    width: 48px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    float: center;
+    mix-blend-mode: multiply;
+    margin-top:-9px
+}
+
+    /* Title container for heading */
+.headingcontainer {
+    width: Hug;
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left:64px;
+    margin-top: -50px;
+    font-family: var(--outfit-font);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50.4px;
+}

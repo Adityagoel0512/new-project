@@ -1,0 +1,32 @@
+@import url('https://fonts.google.com/share?selection.family=Nunito+Sans:wght@400;style=n4');
+.BackButton{
+    width: Hug (121px)px;
+height: Hug (24px)px;
+padding: 8px,16px;
+top: 144px;
+left: 160px;
+gap: 8px;
+opacity: 0px;
+font-family: "Nunito Sans", sans-serif;
+font-size: 16px;
+font-weight: bold;
+line-height: 21.82px;
+text-align: center;
+color:#909090;
+background-color: transparent;
+border:1px;
+justify-content: space-between;
+padding-left: 8px;
+
+
+      
+      
+
+}
+.back-button .icon {
+    margin-right: 8px; 
+    font-size: 18px;
+    width: 24px;
+    height:24px;
+    font-weight: bold;
+  }
