@@ -19,7 +19,7 @@ const AboutPage = () => {
         <TitleBar
           titleImage="/image 12.png"
           titleText="About Oro/Terms and Conditions"
-          pdfURL="/Terms.pdf"
+          
         ></TitleBar>
         <div className="container2">
         <Textbox>
