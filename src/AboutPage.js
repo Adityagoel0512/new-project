@@ -5,6 +5,7 @@ import Textbox from "./Textbox";
 import "./Pages.css";
 
 const AboutPage = () => {
+  const pdfUrl = 'https://oromoney-prod.s3.ap-south-1.amazonaws.com/oroterms.pdf';
   const linkStyle = {
     color: "#909090", // replace 'your-color' with your desired color
     textDecoration: "underline",
@@ -19,6 +20,7 @@ const AboutPage = () => {
         <TitleBar
           titleImage="/image 12.png"
           titleText="About Oro/Terms and Conditions"
+          pdfURL={pdfUrl} 
           
         ></TitleBar>
         <div className="container2">
