@@ -5,6 +5,8 @@ import TextBox from "./Textbox";
 import "./Pages.css";
 
 const CustomerPage = () => {
+  const pdfUrl = 'https://oromoney-prod.s3.ap-south-1.amazonaws.com/Customer+Grievances.pdf';
+
   const linkStyle = {
     color: "#454545", // replace 'your-color' with your desired color
     textDecoration: "underline",
@@ -21,6 +23,7 @@ const CustomerPage = () => {
         <TitleBar
           titleImage="/customer.png"
           titleText="Customer Grievances/Complaints"
+          pdfURL={pdfUrl} 
         ></TitleBar>
         <div className="container2">
           <TextBox>
