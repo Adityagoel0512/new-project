@@ -5,6 +5,7 @@ import TextBox from "./Textbox";
 import "./Pages.css";
 
 const KycPage = () => {
+  const pdfUrl = 'https://oromoney-prod.s3.ap-south-1.amazonaws.com/KYC.pdf';
   const linkStyle = {
     color: "#909090", // replace 'your-color' with your desired color
     textDecoration: "underline",
@@ -21,6 +22,7 @@ const KycPage = () => {
         <TitleBar
           titleImage="/kyc.png"
           titleText="KYC Documents Required"
+          pdfURL={pdfUrl} 
         ></TitleBar>
         <div className="container2">
           <TextBox>
@@ -79,3 +81,4 @@ const KycPage = () => {
 };
 
 export default KycPage;
+
